@@ -314,7 +314,6 @@ p {
     }
 }
 
-
 .spinner {
     position: fixed;
     top: 50%;
@@ -346,4 +345,20 @@ p {
     to {
         transform: rotate(360deg);
     }
+}
+
+
+.loader {
+    color: #ff0000;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 0 2em;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    z-index: 999;
 }
